@@ -74,7 +74,7 @@ elif option == 'Model':
     st.text("Please enter the following values:")
     btn = st.button("Submit")
 
-    carbody = st.selectbox("Select carbody", ['sedan', 'hatchback', 'wagon', 'hardtop.', 'convertible'])
+    carbody = st.selectbox("Select carbody", ['sedan', 'hatchback', 'wagon', 'hardtop', 'convertible'])
     fuel_type = st.selectbox("Select fuel_type", ['gas', 'diesel'])
 
     # Select features and target variable (add 'fueltype' and 'carbody' to features)
